@@ -15,7 +15,7 @@
 * ✔️ Fnction Expression
 * ✔️ Anonymous Functions
 
-[`06-Callbacks-and-Promises`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
+[`Callbacks-and-Promises`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
 
 * :x: What they are
 * :x: How they work
@@ -24,19 +24,19 @@
 * :x: `Resolve` go to first `.then()`
 * :x: `Reject` go to first `.catch()`
 
-[`07-DOM-Manipulation`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
+[`DOM-Manipulation`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
 
-* :x: Manipulating the DOM
-* :x: Accessing elements from HTML to JS
-* :x: Calculator Example
+* :heavy_check_mark: Manipulating the DOM
+* :heavy_check_mark: Accessing elements from HTML to JS
+* :heavy_check_mark: Calculator Example
 
-[`08-Async`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
+[`Async`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
 
 * :x: What is `Async`
 * :x: `await` keyword
 * We wait for a function to finish before moving on!
 
-[`09-Axios`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
+[`Axios`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
 
 * Now bring it all together
 * :x: Making HTTP Requests
