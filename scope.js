@@ -83,3 +83,38 @@ anotherOne();
 //? True true x2
 
 //? TLDR: Always try to use local scopes where possible. If you don't have a local scope to use, use the global! Methods in a file can't READ/SEE LOCAL variables in other METHODS. "What's mine is mine".
+
+
+//? EXERCISES
+
+//? Create a function
+//? Declare a variable with a value inside it(i.e.let x = 'foo') 
+//? Write an if statement that checks if the variable meets a condition
+//? Inside create a local variable
+//? Try to access both variables and asses your output
+
+const checkFoo = () => {
+
+    let x = `foo`; 
+
+    if(x==`foo`){
+        let y = `boo`;
+    }
+
+    console.log(x); //? <- Lives in the method
+    console.log(y); //? <- It has it's own METHOD/SCOPE / REFERENCE ERROR!
+
+}
+
+// checkFoo();
+
+const doSomething = () => {
+    let a = 1;
+    console.log(a);
+    const foo = () => {
+        return "Whatever you like, I'm sharing with you!";
+    }
+    console.log(foo());
+}
+
+doSomething();
