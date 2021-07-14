@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <input type="text" id="uname" placeholder="Please enter your username" />
+        <input type="password" id="password" />
+        <button type="submit" id="btn" name="submit">Submit</button>
+    </form>
+
+
+    <!-- You should be calling a JS FILE - I'm being bad and lazy! -->
+    <script>
+        let submitButton = document.querySelector("#btn");
+        let unameField = document.querySelector("#uname");
+        let passwordField = document.querySelector("#password");
+
+        const formSubmission = (event) => {
+            event.preventDefault(); // stops the direction to nowhere!
+            console.log("Woo i didn't go anywhere");
+            console.log("LEt's now process the username and password");
+            console.log(`Username = ${unameField.value}`);
+            console.dir(passwordField)
+            console.log(`Password: ${passwordField.value}`);
+        }
+
+
+        submitButton.addEventListener('click',formSubmission);
+
+
+
+    </script>
+</body>
+
+</html>
