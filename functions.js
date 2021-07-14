@@ -81,8 +81,8 @@ dan(`Cameron`,100,`Male`);
 const powerUp = (n1,n2) => {
     const value = Math.pow(n1,n2);
 
-    return console.log(`POWER OF ${n1} = ${value}`); // 3 * 4 = Power of both 
+    return console.log(`POWER OF ${n1} = ${value}`); // POWER OF x = 
 }
 
-powerUp(3,3);
-powerUp(2,3);
+powerUp(3,3); // 3 x 3 x 3
+powerUp(2,4); // 2 x 2 x 2 x 2
