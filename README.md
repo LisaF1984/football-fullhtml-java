@@ -8,12 +8,12 @@
 * :x: Explanation of why var is :-1:
 * :x: Flag Example
 
-[`05-Functions`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
+[`Functions`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals/blob/main/functions.js)
 
-* :x: What they are / How they work
-* :x: Function Declaration
-* :x: Fnction Expression
-* :x: Anonymous Functions
+* ✔️ What they are / How they work
+* ✔️ Function Declaration
+* ✔️ Fnction Expression
+* ✔️ Anonymous Functions
 
 [`06-Callbacks-and-Promises`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
 
