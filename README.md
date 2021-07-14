@@ -2,11 +2,11 @@
 
 ## JavaScript
 
-[`04-Scope`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals)
+[`Scope`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals/blob/main/scope.js)
 
-* :x: Local and Global Scope
-* :x: Explanation of why var is :-1:
-* :x: Flag Example
+* :heavy_check_mark: Local and Global Scope
+* :heavy_check_mark: Explanation of why var is :-1:
+* :heavy_check_mark: Flag Example
 
 [`Functions`](https://github.com/savannahvaith/21Natwest-Web-Fundamentals/blob/main/functions.js)
 
