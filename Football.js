@@ -69,3 +69,13 @@ const deleteTeam = () => {
 
 submitButton.addEventListener('click',createFootball);
 delBTN.addEventListener('click',deleteTeam);
+
+
+
+// EXERCISE
+
+// 1. GET REQUEST
+
+axios.get("https://reqres.in/api/users/2")
+    .then( (response) => printToScreen(response.data.data.first_name))
+    .catch(( error) => printToScreen("Something went wrong!!"));
