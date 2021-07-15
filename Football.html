@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Football </h1>
+
+    <!-- Input fields, submit button, output on the screen! -->
+
+    <h1>CREATE:</h1>
+    <form method="POST">
+        <input type="text" id="name" name="name" placeholder="Enter Name:" />
+        <input type="text" id="stadiumName" name="stadiumName" placeholder="Enter Stadium Name:" />
+        <input type="number" id="noOfPlayers" name="noOfPlayers" placeholder="Enter number of player" />
+        <input type="number" id="yearFounded" name="yearFounded" placeholder="Enter year Founded" />
+
+        <button type="submit" id="btn" name="submit">Submit</button>
+    </form>
+
+    <hr/>
+
+    <h2>DELETE:</h2>
+
+    <input type="number" id="deleteID" placeholder="Enter the ID you'd like to delete"/>
+    <button type="submit" id="delBtn">Delete Football Team</button>
+
+
+    <div id="responsefromdb"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./Football.js"></script>
+</body>
+
+</html>
